@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+#header{
+    height: 100px;}
+.headerIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;}
+
+.gnb ul{
+    display: flex;
+    margin-left: 50px;
+}
+.gnb li{
+    width: 70px;
+    margin: 0 30px;
+}
+.gnb li a{
+    font-size: 18px;
+    color: #888;
+}
+.gnb li a:hover{
+    font-size: 20px;
+}
+.member ul{
+    display: flex;
+}
+.member li{
+    margin-left: 15px;
+}
+.member li a{
+    color: #888;
+}
+.member li a:hover{
+    text-decoration: underline;
+}
+.row1 {   
+    width: 1200px;
+    margin: 0 auto 50px auto;
+}
+.row1 img{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.row2{
+    width: 1200px;
+    margin: 0 auto 50px auto; 
+}
+.rowi{
+	padding: 30px 0 0 30px;
+}
+.r2Top{
+    margin-bottom: 40px;
+}
+.r2Top .board{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+.r2Top .board::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+    background-color: rgb(255, 255, 255);
+}
+.r2Top .album1{
+    background-image: url(/resources/img/My\ Universe.png);
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+}
+.r2Top .aIn1{
+    padding-top: 110px;
+}
+.r2Top .album1 p{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 70px;
+    color: #333;
+}
+.r2Top .album2{
+    background-image: url(/resources/img/permission\ to\ dance.png);
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+}
+.r2Top .aIn2{
+    padding-top: 60px;
+}
+.r2Top .album2 p{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 55px;
+    color: rgb(0, 0, 0);
+}
+.r2Top .album3{
+    background-image: url(/resources/img/butter.png);
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+}
+.r2Top .aIn3{
+    padding-top: 30px;
+}
+.r2Top .album3 p{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 55px;
+    color: #333;
+}
+.r2Top .album4{
+    background-image: url(/resources/img/Savage\ Love.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+}
+.r2Top .aIn4{
+    padding-top: 60px;
+}
+.r2Top .album4 p{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 55px;
+    color: #333;
+}
+.r2Top .album5{
+    /* padding-top: 50px; */
+    background-image: url(/resources/img/dynamite.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+}
+.r2Top .aIn5{
+   
+}
+.r2Top .album5 p{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 55px;
+    color: #333;
+}
+.r2TopText{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+}
+.r2Btm{
+    margin-bottom: 40px;
+}
+.r2Btm img{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto 20px auto;     
+}
+.r2BtmText{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-color: beige;
+    
+}
+.footerIn{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    line-height: 200px;
+    text-align: center;
+    
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color:#222;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap{
+    width: 100%;
+    /* 
+        원래는 안써도 되는 값.
+        그러나 일부 모바일용 브라우저에서 width: 100%를 생략시
+        전체 틀이 어긋나는 경우가 있어서 넣어줌
+    */
+    min-width: 1280px;
+}
+
+.logo{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+.logo a{
+    color: #222;
+}
+
+#container{
+    position: relative;
+    width: 550px;
+    margin: 0 auto;
+}
+
+#container .lang_eng{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    
+}
+#container .lang_eng a{
+    display: block;
+    text-align: center;
+    color: #666;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #e5e5e5;
+}
+
+
+#user_info{
+    margin-bottom: 40px;
+    height:60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+
+#buttons{
+    display: flex;
+}
+
+button{
+    width: 275px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #e5e5e5;
+    margin: 0 10px;
+}
+
+
+
+#footer{
+    width: 550px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-top: 30px;
+    text-align: center;	
+}
+
+
+.fL {
+    display: flex;
+    justify-content: center;
+}
+
+.fR {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    color: #adaeb0;
+}
