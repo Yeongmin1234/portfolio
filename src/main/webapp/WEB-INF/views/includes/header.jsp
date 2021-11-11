@@ -135,14 +135,14 @@
                         BTS
                     </a>
                 </h1><!--.logo-->
-                <div class="gnb">
+                <nav class="gnb">
                     <ul>
                         <li><a href="/board/list">게시판</a></li>
                         <li><a href="#">정보</a></li>
                         <li><a href="#">사진</a></li>
                         <li><a href="#">앨범</a></li>
                     </ul>                    
-                </div><!--.gnb-->
+                </nav><!--.gnb-->
 		                
 				<div class="member">
                     <ul>
